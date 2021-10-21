@@ -53,10 +53,10 @@
             </objects>
             <point key="canvasLocation" x="1042.0289855072465" y="115.84821428571428"/>
         </scene>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="qsS-K0-BvQ">
             <objects>
-                <viewController id="duv-9z-fZ3" sceneMemberID="viewController">
+                <viewController id="duv-9z-fZ3" customClass="SecondViewController" customModule="LocalizationExample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uyE-He-Q54">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -67,19 +67,34 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="IKs-B4-V6U">
+                                <rect key="frame" x="20" y="108" width="374" height="279.5"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="X2y-x7-VXl"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="IKs-B4-V6U" firstAttribute="leading" secondItem="X2y-x7-VXl" secondAttribute="leading" constant="20" id="4Zc-cR-VUL"/>
                             <constraint firstItem="mqE-hR-i5Q" firstAttribute="centerY" secondItem="uyE-He-Q54" secondAttribute="centerY" id="U5R-cH-oVy"/>
+                            <constraint firstItem="X2y-x7-VXl" firstAttribute="trailing" secondItem="IKs-B4-V6U" secondAttribute="trailing" constant="20" id="fYc-x5-5Od"/>
+                            <constraint firstItem="mqE-hR-i5Q" firstAttribute="top" secondItem="IKs-B4-V6U" secondAttribute="bottom" constant="50" id="iKU-BR-HAK"/>
+                            <constraint firstItem="IKs-B4-V6U" firstAttribute="top" secondItem="X2y-x7-VXl" secondAttribute="top" constant="20" id="r09-4t-Ysx"/>
                             <constraint firstItem="mqE-hR-i5Q" firstAttribute="centerX" secondItem="uyE-He-Q54" secondAttribute="centerX" id="rrS-Us-Pc4"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="zbd-fG-5fX"/>
+                    <connections>
+                        <outlet property="secondTextView" destination="IKs-B4-V6U" id="5m2-2Z-sU2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3AZ-EH-3D1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1932" y="116"/>
+            <point key="canvasLocation" x="1931.8840579710147" y="115.84821428571428"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="fmO-cU-aYx">
