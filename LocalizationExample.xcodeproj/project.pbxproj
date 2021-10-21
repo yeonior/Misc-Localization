@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A270A90E272181ED005FF261 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A270A910272181ED005FF261 /* Localizable.strings */; };
 		A2F212A927200C2C00DCA123 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F212A827200C2C00DCA123 /* AppDelegate.swift */; };
 		A2F212AB27200C2C00DCA123 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F212AA27200C2C00DCA123 /* SceneDelegate.swift */; };
 		A2F212AD27200C2C00DCA123 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F212AC27200C2C00DCA123 /* ViewController.swift */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A270A90F272181ED005FF261 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A270A911272181F8005FF261 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A2F212A527200C2C00DCA123 /* LocalizationExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalizationExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2F212A827200C2C00DCA123 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2F212AA27200C2C00DCA123 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +67,7 @@
 				A2F212B127200C2D00DCA123 /* Assets.xcassets */,
 				A2F212B327200C2D00DCA123 /* LaunchScreen.storyboard */,
 				A2F212B627200C2D00DCA123 /* Info.plist */,
+				A270A910272181ED005FF261 /* Localizable.strings */,
 			);
 			path = LocalizationExample;
 			sourceTree = "<group>";
@@ -127,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2F212B527200C2D00DCA123 /* LaunchScreen.storyboard in Resources */,
+				A270A90E272181ED005FF261 /* Localizable.strings in Resources */,
 				A2F212B227200C2D00DCA123 /* Assets.xcassets in Resources */,
 				A2F212B027200C2C00DCA123 /* Main.storyboard in Resources */,
 			);
@@ -148,6 +153,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		A270A910272181ED005FF261 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A270A90F272181ED005FF261 /* en */,
+				A270A911272181F8005FF261 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		A2F212AE27200C2C00DCA123 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

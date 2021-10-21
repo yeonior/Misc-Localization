@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  LocalizationExample
+
+  Created by ruslan on 21.10.2021.
+  
+*/
+
+"text_example" = "русский текст";
