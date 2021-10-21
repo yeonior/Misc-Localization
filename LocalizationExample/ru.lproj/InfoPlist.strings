@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  LocalizationExample
+
+  Created by ruslan on 21.10.2021.
+  
+*/
+
+CFBundleName = "Приложение Локализация";

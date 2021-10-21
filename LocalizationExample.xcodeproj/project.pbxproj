@@ -10,6 +10,7 @@
 		A270A90E272181ED005FF261 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A270A910272181ED005FF261 /* Localizable.strings */; };
 		A270A91327219735005FF261 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A270A91227219735005FF261 /* SecondViewController.swift */; };
 		A270A91627219762005FF261 /* Second.strings in Resources */ = {isa = PBXBuildFile; fileRef = A270A91827219762005FF261 /* Second.strings */; };
+		A270A91C2721AA94005FF261 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A270A91E2721AA94005FF261 /* InfoPlist.strings */; };
 		A2F212A927200C2C00DCA123 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F212A827200C2C00DCA123 /* AppDelegate.swift */; };
 		A2F212AB27200C2C00DCA123 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F212AA27200C2C00DCA123 /* SceneDelegate.swift */; };
 		A2F212AD27200C2C00DCA123 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F212AC27200C2C00DCA123 /* ViewController.swift */; };
@@ -24,6 +25,8 @@
 		A270A91227219735005FF261 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		A270A91727219762005FF261 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Second.strings; sourceTree = "<group>"; };
 		A270A9192721976D005FF261 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Second.strings; sourceTree = "<group>"; };
+		A270A91D2721AA94005FF261 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A270A91F2721AA96005FF261 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A2F212A527200C2C00DCA123 /* LocalizationExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalizationExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2F212A827200C2C00DCA123 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2F212AA27200C2C00DCA123 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +78,7 @@
 				A2F212B627200C2D00DCA123 /* Info.plist */,
 				A270A910272181ED005FF261 /* Localizable.strings */,
 				A270A91827219762005FF261 /* Second.strings */,
+				A270A91E2721AA94005FF261 /* InfoPlist.strings */,
 			);
 			path = LocalizationExample;
 			sourceTree = "<group>";
@@ -138,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2F212B527200C2D00DCA123 /* LaunchScreen.storyboard in Resources */,
+				A270A91C2721AA94005FF261 /* InfoPlist.strings in Resources */,
 				A270A91627219762005FF261 /* Second.strings in Resources */,
 				A270A90E272181ED005FF261 /* Localizable.strings in Resources */,
 				A2F212B227200C2D00DCA123 /* Assets.xcassets in Resources */,
@@ -178,6 +183,15 @@
 				A270A9192721976D005FF261 /* ru */,
 			);
 			name = Second.strings;
+			sourceTree = "<group>";
+		};
+		A270A91E2721AA94005FF261 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A270A91D2721AA94005FF261 /* en */,
+				A270A91F2721AA96005FF261 /* ru */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 		A2F212AE27200C2C00DCA123 /* Main.storyboard */ = {
