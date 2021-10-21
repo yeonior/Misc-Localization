@@ -27,6 +27,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uQX-5R-Cau">
                                 <rect key="frame" x="20" y="568" width="374" height="30"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="duv-9z-fZ3" kind="show" id="8vk-VU-YRg"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -49,6 +52,34 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1042.0289855072465" y="115.84821428571428"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="qsS-K0-BvQ">
+            <objects>
+                <viewController id="duv-9z-fZ3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uyE-He-Q54">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mqE-hR-i5Q">
+                                <rect key="frame" x="186" y="437.5" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="X2y-x7-VXl"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="mqE-hR-i5Q" firstAttribute="centerY" secondItem="uyE-He-Q54" secondAttribute="centerY" id="U5R-cH-oVy"/>
+                            <constraint firstItem="mqE-hR-i5Q" firstAttribute="centerX" secondItem="uyE-He-Q54" secondAttribute="centerX" id="rrS-Us-Pc4"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="zbd-fG-5fX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3AZ-EH-3D1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1932" y="116"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="fmO-cU-aYx">
